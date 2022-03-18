@@ -1,0 +1,36 @@
+<html>
+   <head>
+    <link rel = "stylesheet" href = "styles3.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   </head>
+   <body>
+       <div id="headings" >
+       <h3>Arrange the numbers in Ascending Order:</h3>
+       </div>
+       <div class="instruction"><p>Drag and Drop numbers in ascending position</p></div>
+       <div class="instruction" style="color: rgb(175, 175, 175); margin-top: 0;"><p>(touch screen not supported)</p></div>
+       
+        
+    <section class="draggable-elements">
+        <span class="third draggable" draggable="true" style="color: #76b13f;" id="third" >38</span>
+        <span class="fifth draggable" draggable="true" style="color: #76b13f;" id="fifth" >89</span>
+        <span class="second draggable" draggable="true" style="color: #76b13f;" id="second" >28</span>
+        <span class="fourth draggable" draggable="true" style="color: #76b13f;" id="fourth" >40</span>
+        <span class="first draggable" draggable="true" style="color: #76b13f;" id="first" >24</span>
+        <!-- <i class="fas fa-horse draggable" draggable="true" style="color: #333333;" id="horse"></i>
+        <i class="fas fa-hippo draggable" draggable="true" style="color: #ff9f40;" id="hippo"></i>
+        <i class="fas fa-spider draggable" draggable="true" style="color: #ff99cc;" id="spider"></i> -->
+      </section>
+      <section class="droppable-elements">
+        <div class="droppable" data-draggable-id="first"></div>
+        <div class="droppable" data-draggable-id="second"></div>
+        <div class="droppable" data-draggable-id="third"></div>
+        <div class="droppable" data-draggable-id="fourth"></div>
+        <div class="droppable" data-draggable-id="fifth"></div>
+        <!-- <div class="droppable" data-draggable-id="spider"><span>Spider</span></div>
+        <div class="droppable" data-draggable-id="horse"><span>Horse</span></div>
+        <div class="droppable" data-draggable-id="hippo"><span>Hippo</span></div> -->
+      </section>
+      <Script src="script3.js"></Script>
+   </body>
+</html>
